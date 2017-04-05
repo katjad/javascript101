@@ -1,4 +1,4 @@
-# About-test
+# About
 
 Javascript 101 is a [CodeHub Bristol](https://www.meetup.com/CodeHub-Bristol/) meet up group that meets up every other Tuesday at 10am - 1pm at the [Beatroot cafe](http://www.beatrootcafe.com/) in Bristol, UK.
 
