@@ -39,6 +39,20 @@ h3 {
   background-color: #fff;
 }
 
+table {
+  border: 1px solid #444;
+}
+
+td, th {
+  padding: 8px;
+  vertical-align: top;
+  border: 1px solid #aaa;
+}
+
+th {
+  background: #dedede
+}
+
 /* Logo styles
 -------------------------------------------------- */
 .logos ul {

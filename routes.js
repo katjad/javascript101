@@ -41,4 +41,8 @@ router.get('/pair-programming', function (req, res) {
   doc.render('pair-programming.md', res)
 })
 
+router.get('/roadmap', function (req, res) {
+  doc.render('roadmap.md', res)
+})
+
 module.exports = router
