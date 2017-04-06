@@ -33,4 +33,16 @@ router.get('/careers', function (req, res) {
   doc.render('careers.md', res)
 })
 
+router.get('/presentations', function (req, res) {
+  doc.render('presentations.md', res)
+})
+
+router.get('/pair-programming', function (req, res) {
+  doc.render('pair-programming.md', res)
+})
+
+router.get('/roadmap', function (req, res) {
+  doc.render('roadmap.md', res)
+})
+
 module.exports = router

@@ -17,30 +17,32 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-          aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Javascript 101</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="http://javascript101.co.uk">Home</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li class="active"><a href="projects.html">Projects</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <!--/.nav-collapse -->
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Javascript 101</a>
     </div>
-  </nav>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/getting-started">Getting Started</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="/careers">Careers</a></li>
+        <li><a href="mailto:mail@kdurrani.co.uk?subject=Hello%20:-)">Contact</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
 
   <!-- TODO: these 4 showcase items are currently hard coded, they are unlikely to change often? They could be made to be pulled via another API call to github and filtered down to specified projects via name? Might be one to wait on until this is converted to react, as then would have one API call and the data stored in state. -->
   <div class="container">
@@ -105,6 +107,7 @@
   <!--<script src="bootstrap/js/bootstrap.min.js"></script>    TODO: what method are we going to use to include bootstrap? This link is not valid -->
   <script src="js/masonry.pkgd.min.js"></script>
   <script src="js/projects.js"></script>
+  <script src="../js/burgerNav.js"></script>
 
 
 </body>
