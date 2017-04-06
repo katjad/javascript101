@@ -22,7 +22,7 @@ You might find working through an online course helpful.  [Free Code Camp](https
 Other options include:
 * [Code Academy](https://www.codecademy.com/)
 * [Tree House](https://teamtreehouse.com/library/topic:javascript)
-* [Udacity](https://www.udacity.com/)
+* [Udacity](https://www.udacity.com/course/javascript-basics--ud804)
 * [Introduction to Programming Course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-9) with MIT on Edx.
 
 ## Frameworks
@@ -55,3 +55,6 @@ In order to contribute to a project you should learn [how to use git](/getting-s
 It's particularly important with Javascipt to make sure the resources you're using are up to date... a resource that's just a couple of years old can be way out of date; Javascript frameworks and methods are evolving rapidly.
 
 Find out about the best and most up to date resources on our [Resources page](resources.html).
+
+## Next step
+Check out our [Roadmaps](/roadmap) page with some advice on integrating your goals with those of the group. 
