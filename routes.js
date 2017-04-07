@@ -45,4 +45,12 @@ router.get('/roadmap', function (req, res) {
   doc.render('roadmap.md', res)
 })
 
+router.get('/projects', function(req, res){
+  res.render('projects')
+})
+
+router.get('/resources', function(req, res){
+  res.render('resources')
+})
+
 module.exports = router

@@ -1,0 +1,54 @@
+extends layout.pug
+
+block content
+
+	.container
+		h1 Projects
+		h2 Project Showcase
+
+		.col-sm-6.col-md-4
+			.thumbnail
+				.caption
+					h3 Javascript101 Website
+					p The main JS101 website
+					p 
+						a(href='http://javascript101.co.uk/' class='btn btn-default' role='button') App
+						a(href='https://github.com/CodeHubOrg/javascript101' class='btn btn-default' role= 'button') Repo
+
+		.col-sm-6.col-md-4
+			.thumbnail
+				.caption
+					h3 Organisations Database
+					p AKA Items Database
+					p
+						a(href='https://github.com/CodeHubOrg/organisations-database' class='btn btn-default' role='button') App
+						a(href='https://github.com/CodeHubOrg/organisations-database' class='btn btn-default' role='button') Repo
+
+		.col-sm-6.col-md-4
+			.thumbnail
+				.caption
+					h3 Today I learned
+					p A React web app using a Google Spreadsheet as a datasource.
+					p
+						a(href='https://today-i-learned.glitch.me/' class='btn btn-default' role='button') App
+						a(href='https://github.com/CodeHubOrg/today-i-learned' class='btn btn-default' role='button') Repo
+
+		.col-sm-6.col-md-4
+			.thumbnail
+				.caption
+					h3 React Lab
+					p A library of React components
+					p
+						a(href='https://github.com/CodeHubOrg/react-lab' class='btn btn-default' role= 'button') App
+						a(href='https://github.com/CodeHubOrg/react-lab' class='btn btn-default' role='button') Repo
+
+	.container
+		h2 CodeHub Github Projects
+		p The projects listed here are pulled via the Github API.
+		div(class='row grid' data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }') 
+
+
+	script(src='js/jquery-3.2.0.min.js')
+	script(src='js/masonry.pkgd.min.js')
+	script(src='js/projects.js')
+	script(src='../js/burgerNav.js')
