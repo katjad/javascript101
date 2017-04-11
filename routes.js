@@ -41,6 +41,10 @@ router.get('/pair-programming', function (req, res) {
   doc.render('pair-programming.md', res)
 })
 
+router.get('/code-reviews', function (req, res) {
+  doc.render('code-reviews.md', res)
+})
+
 router.get('/roadmap', function (req, res) {
   doc.render('roadmap.md', res)
 })
@@ -52,5 +56,8 @@ router.get('/projects', function(req, res){
 router.get('/resources', function(req, res){
   res.render('resources')
 })
+
+
+
 
 module.exports = router
