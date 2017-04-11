@@ -1,5 +1,6 @@
 extends layout.pug
 include mixins/logoList.pug
+include mixins/sponsorList.pug
 include mixins/randomQuote.pug
 
 block content
@@ -176,4 +177,8 @@ block content
         p Location...
         p 12 Members are attending...
         a(class='btn btn-danger btn-lg' href='https://www.meetup.com/CodeHub-Bristol/') Meetup
+
+      .row
+        h1 Our Sponsors
+        +sponsorList(sponsorList)
         
