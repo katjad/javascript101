@@ -1,6 +1,7 @@
 var express = require('express')
 var router = express.Router()
 var logoList = require('./model/logo')
+var sponsorList = require('./model/sponsor')
 var doc = require('./utils/doc')
 var quotesInspiration = require('./model/quotesInspiration')
 var quotesCrockford = require('./model/quotesCrockford')
@@ -11,6 +12,7 @@ router.get('/', function (req, res) {
     title: 'Welcome to JavaScript 101',
     message: 'We are a JavaScript meetup group in Bristol, UK.',
     logoList: logoList,
+    sponsorList: sponsorList,
     quotesInspiration: quotesInspiration,
     quotesCrockford: quotesCrockford,
     quotesJokes: quotesJokes
@@ -41,6 +43,10 @@ router.get('/pair-programming', function (req, res) {
   doc.render('pair-programming.md', res)
 })
 
+router.get('/code-reviews', function (req, res) {
+  doc.render('code-reviews.md', res)
+})
+
 router.get('/roadmap', function (req, res) {
   doc.render('roadmap.md', res)
 })
@@ -51,6 +57,18 @@ router.get('/projects', function(req, res){
 
 router.get('/resources', function(req, res){
   res.render('resources')
+})
+
+router.get('/collaborative-learning', function (req, res) {
+  doc.render('friendlyteamenvironment.md', res)
+})
+
+router.get('/best-practices', function (req, res) {
+  doc.render('bestpractices.md', res)
+})
+
+router.get('/feedback', function (req, res) {
+  doc.render('feedback.md', res)
 })
 
 module.exports = router
