@@ -1,5 +1,6 @@
 extends layout.pug
 include mixins/logoList.pug
+include mixins/sponsorList.pug
 include mixins/randomQuote.pug
 
 block content
@@ -24,57 +25,57 @@ block content
         .col-lg-4
           h2 Previous Events
           p Find out what we've been up to
-          a(class='btn btn-primary' href='https://github.com/CodeHubOrg/discussions/issues' target='_blank') View Details
+          a(class='btn btn-primary' href='https://github.com/CodeHubOrg/discussions/issues') View Details
         .col-lg-4
           h2 Discussion
           p Join us for a chat on our Gitter channel
-          a(class='btn btn-primary' href='https://gitter.im/CodeHubOrg/discussions/' target='_blank') View Details
+          a(class='btn btn-primary' href='https://gitter.im/CodeHubOrg/discussions/') View Details
         .col-lg-4
           h2 Awesome Projects
           p Check out our latest projects
-          a(class='btn btn-primary' href='https://github.com/CodeHubOrg' target='_blank') View Details
+          a(class='btn btn-primary' href='https://github.com/CodeHubOrg') View Details
       .row
         .jumbotron
           h1 How to Contribute
             p Dive in to our Github Issues and see what you can do! 
             p We also need pages proof read and welcome feedback, suggestions and pull requests.
-            a(class='btn btn-danger btn-lg' href='https://github.com/CodeHubOrg/javascript101/issues' target='_blank') Contribute
+            a(class='btn btn-danger btn-lg' href='https://github.com/CodeHubOrg/javascript101/issues') Contribute
               
-            a(class='btn btn-danger btn-lg' href='/feedback' target='_blank') Feedback 
+            a(class='btn btn-danger btn-lg' href='/feedback') Feedback 
       .row
         h1 Features
         .col-lg-3
           h2 Presentations
           p Learn more about JavaScript fundamentals
-          a(class='btn btn-primary' href='/presentations' target='_blank') View Details
+          a(class='btn btn-primary' href='/presentations') View Details
         .col-lg-3
           h2 Pair Programming
           p Two heads are better than one
-          a(class='btn btn-primary' href='/pair-programming' target='_blank') View Details
+          a(class='btn btn-primary' href='/pair-programming') View Details
         .col-lg-3
           h2 Code Reviews
           p Improve your code
-          a(class='btn btn-primary' href='/code-reviews' target='_blank') View Details
+          a(class='btn btn-primary' href='/code-reviews') View Details
         .col-lg-3
           h2 Bleeding Edge
           p Use the latest technologies
-          a(class='btn btn-primary' href='/tech-stack' target='_blank') View Details
+          a(class='btn btn-primary' href='/tech-stack') View Details
         .col-lg-3
           h2 Guidance
           p What to learn next
-          a(class='btn btn-primary' href='/roadmap' target='_blank') View Details
+          a(class='btn btn-primary' href='/roadmap') View Details
         .col-lg-3
           h2 Best Practises
           p Software development methodologies
-          a(class='btn btn-primary' href='/best-practices' target='_blank') View Details
+          a(class='btn btn-primary' href='/best-practices') View Details
         .col-lg-3
-          h2 Friendly Team Environment
+          h2 Team Environment
           p Sharing is caring
-          a(class='btn btn-primary' href='/collaborative-learning' target='_blank') View Details
+          a(class='btn btn-primary' href='/collaborative-learning') View Details
         .col-lg-3
           h2 Level Up
           p Get prepared for professional work
-          a(class='btn btn-primary' href='/careers' target='_blank') View Details
+          a(class='btn btn-primary' href='/careers') View Details
       .row
         h1 In Bristol and into JavaScript? You need to join Javascript101!
         a(class='btn btn-danger btn-lg' href='https://www.meetup.com/CodeHub-Bristol/') Join Now       
@@ -109,15 +110,15 @@ block content
               h3.panel-title Command Line
             .panel-body
               p JavaScripts in your terminal
-              a(class='btn btn-success' href='http://terminal.jcubic.pl/examples.php#starwars' target='_blank') A New Hope
+              a(class='btn btn-success' href='http://terminal.jcubic.pl/examples.php#starwars') A New Hope
               
         .col-lg-4.wonderland
           .panel.panel-primary
             .panel-heading
               h3.panel-title Are you ready for Wonderland?
             .panel-body
-              a(class='btn btn-danger btn-lg' href='http://www.cornify.com' target='_blank') Yes 
-              a(class='btn btn-primary btn-lg' href='https://www.youtube.com/watch?v=dQw4w9WgXcQs' target='_blank') No
+              a(class='btn btn-danger btn-lg' href='http://www.cornify.com') Yes 
+              a(class='btn btn-primary btn-lg' href='https://www.youtube.com/watch?v=dQw4w9WgXcQs') No
                
                                   
         .col-lg-8.quote
@@ -177,4 +178,8 @@ block content
         p Location...
         p 12 Members are attending...
         a(class='btn btn-danger btn-lg' href='https://www.meetup.com/CodeHub-Bristol/') Meetup
+
+      .row
+        h1 Our Sponsors
+        +sponsorList(sponsorList)
         
