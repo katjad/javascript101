@@ -151,6 +151,14 @@ If your project is top secret you can store it privately for free on
 
 Read [Git Book Pro](https://git-scm.com/book/en/v2), it's free and awesome.
 
+## Workshop
+A good practical Introduction is the [node school](https://nodeschool.io/) workshop which can be installed and run with the following commands:
+
+```
+npm install -g git-it
+git-it
+```
+
 ## Github Help
 [Help on github](https://help.github.com/)
 
