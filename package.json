@@ -12,6 +12,7 @@
   "dependencies": {
     "express": "^4.15.2",
     "marked": "^0.3.6",
+    "object-assign": "^4.1.1",
     "pug": "^2.0.0-beta11"
   }
 }

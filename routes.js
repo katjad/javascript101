@@ -10,6 +10,7 @@ router.get('/', function (req, res) {
   res.render('index', {
     title: 'Welcome to JavaScript 101',
     message: 'We are a JavaScript meetup group in Bristol, UK.',
+    active: '/',
     logoList: logoList,
     quotesInspiration: quotesInspiration,
     quotesCrockford: quotesCrockford,
@@ -17,47 +18,32 @@ router.get('/', function (req, res) {
   })
 })
 
-router.get('/getting-started', function (req, res) {
-  doc.render('getting-started.md', res)
-})
+var navitems = {
+  '/getting-started': 'getting-started.md',
+  '/getting-started/git': 'git.md',
+  '/about': 'about.md',
+  '/careers': 'careers.md',
+  '/presentations': 'presentations.md',
+  '/pair-programming': 'pair-programming.md',
+  '/code-reviews': 'code-reviews.md',
+  '/roadmap': 'roadmap.md'
+}
 
-router.get('/getting-started/git', function (req, res) {
-  doc.render('git.md', res)
-})
-
-router.get('/about', function (req, res) {
-  doc.render('about.md', res)
-})
-
-router.get('/careers', function (req, res) {
-  doc.render('careers.md', res)
-})
-
-router.get('/presentations', function (req, res) {
-  doc.render('presentations.md', res)
-})
-
-router.get('/pair-programming', function (req, res) {
-  doc.render('pair-programming.md', res)
-})
-
-router.get('/code-reviews', function (req, res) {
-  doc.render('code-reviews.md', res)
-})
-
-router.get('/roadmap', function (req, res) {
-  doc.render('roadmap.md', res)
-})
+for (var key in navitems){ 
+  var navlink = key;
+  (function(link){
+    router.get(link, function(req, res){
+      doc.render(navitems[link], res, {active: link})
+    })
+  })(navlink)
+}
 
 router.get('/projects', function(req, res){
-  res.render('projects')
+  res.render('projects', {active: '/projects'})
 })
 
 router.get('/resources', function(req, res){
-  res.render('resources')
+  res.render('resources', {active: '/resources'})
 })
-
-
-
 
 module.exports = router
