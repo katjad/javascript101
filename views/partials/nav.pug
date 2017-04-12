@@ -1,0 +1,18 @@
+nav(class='navbar navbar-inverse navbar-fixed-top')
+  .container
+    .navbar-header
+      button(type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar' aria-expanded='false'
+        aria-controls='navbar')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      a(class='navbar-brand' href='/') JavaScript 101
+    #navbar(class='collapse navbar-collapse')
+      ul(class='nav navbar-nav')
+        - var navitems = {'/':'Home', '/about': 'About', '/getting-started': 'Getting Started', '/resources': 'Resources', '/projects': 'Projects', '/careers': 'Careers'}
+          each val, key in navitems
+            li
+              a(href=key)= val
+          li
+            a(href='mailto:mail@kdurrani.co.uk?subject=Hello%20:-)' target='_top') Contact
