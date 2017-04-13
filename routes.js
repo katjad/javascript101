@@ -20,7 +20,7 @@ router.get('/', function (req, res) {
   })
 })
 
-var navitems = {
+var navItems = {
   '/getting-started': 'getting-started.md',
   '/getting-started/git': 'git.md',
   '/about': 'about.md',
@@ -28,16 +28,19 @@ var navitems = {
   '/presentations': 'presentations.md',
   '/pair-programming': 'pair-programming.md',
   '/code-reviews': 'code-reviews.md',
-  '/roadmap': 'roadmap.md'
+  '/roadmap': 'roadmap.md',
+  '/collaborative-learning': 'friendlyteamenvironment.md',
+  '/best-practices': 'best-practices.md',
+  '/feedback': 'feedback.md'
 }
 
-for (var key in navitems){ 
-  var navlink = key;
+for (var key in navItems){ 
+  var navLink = key;
   (function(link){
     router.get(link, function(req, res){
-      doc.render(navitems[link], res, {active: link})
+      doc.render(navItems[link], res, {active: link})
     })
-  })(navlink)
+  })(navLink)
 }
 
 router.get('/projects', function(req, res){

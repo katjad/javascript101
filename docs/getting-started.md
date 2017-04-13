@@ -43,13 +43,9 @@ You might like to get involved and contribute to one of our own projects. Find o
 We recommend installing [Node.js](https://nodejs.org/) and using [npm](https://www.npmjs.com/) to install packages and run workshops.
 
 ## Source Control
-Source control allows you to manage versions of your code and contribute to projects.  We use [git](https://git-scm.com/) and host our projects on [github](https://github.com/CodeHubOrg).  A good practical Introduction is the [node school](https://nodeschool.io/) workshop which can be installed and run with the following commands:
+Source control allows you to manage versions of your code and contribute to projects.  We use [git](https://git-scm.com/) and host our projects on [github](https://github.com/CodeHubOrg).  We recommend using [Github Desktop](https://desktop.github.com/) to get started easily and progressing to the [command line](/getting-started/git) later.  
 
-```
-npm install -g git-it
-git-it
-```
-In order to contribute to a project you should learn [how to use git](/getting-started/git) and [how to make a pull request](https://docs.google.com/presentation/d/12XPsgBkarJLA6I1UJd7HK1izUpQfX2Lt2gQq91z9XNQ/edit#slide=id.p).
+Why not try our [playground challenge](https://github.com/CodeHubOrg/git-playground)?
 
 ## Further Resources
 It's particularly important with Javascipt to make sure the resources you're using are up to date... a resource that's just a couple of years old can be way out of date; Javascript frameworks and methods are evolving rapidly.
@@ -57,4 +53,4 @@ It's particularly important with Javascipt to make sure the resources you're usi
 Find out about the best and most up to date resources on our [Resources page](resources.html).
 
 ## Next step
-Check out our [Roadmaps](/roadmap) page with some advice on integrating your goals with those of the group. 
+Check out our [Roadmaps](/roadmap) page with some advice on integrating your goals with those of the group.
