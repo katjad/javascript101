@@ -30,7 +30,7 @@ var navItems = {
   '/code-reviews': 'code-reviews.md',
   '/roadmap': 'roadmap.md',
   '/collaborative-learning': 'friendlyteamenvironment.md',
-  '/best-practices': 'best-practices.md',
+  '/best-practices': 'bestpractices.md',
   '/feedback': 'feedback.md'
 }
 
