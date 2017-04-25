@@ -10,7 +10,7 @@ nav(class='navbar navbar-inverse navbar-fixed-top')
       a(class='navbar-brand' href='/') JavaScript 101
     #navbar(class='collapse navbar-collapse')
       ul(class='nav navbar-nav')
-        - var nav_items = {'/':'Home', '/about': 'About', '/getting-started': 'Getting Started', '/resources': 'Resources', '/projects': 'Projects', '/careers': 'Careers'}
+        - var nav_items = {'/about': 'About', '/getting-started': 'Getting Started', '/resources': 'Resources', '/projects': 'Projects', '/careers': 'Careers'}
           each val, key in nav_items
             if key == active
               li.active
