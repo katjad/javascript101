@@ -1,7 +1,4 @@
-
-<br />
 # Roadmap(s)
-<br />  
 The JS101 group is just over 2 years old and has changed and evolved over that time. On this page, we share what we have learned about how to learn. It's not so much a strict roadmap, but rather advice on how to put together your own.
 
 *Note: We don't teach JavaScript, this is not a linear course. You are responsible for your own learning, but we believe that reserving a time and place for it, and coding together with other developers, can enhance your learning a lot.*       

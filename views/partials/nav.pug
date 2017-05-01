@@ -15,6 +15,9 @@ nav(class='navbar navbar-inverse navbar-fixed-top')
             if key == active
               li.active
                 a(href=key)= val
+            else if active && active.indexOf(key) !== -1
+              li.active
+                a(href=key)= val
             else 
               li
                 a(href=key)= val

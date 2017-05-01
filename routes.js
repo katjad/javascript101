@@ -26,9 +26,9 @@ var navItems = {
   '/about': 'about.md',
   '/careers': 'careers.md',
   '/presentations': 'presentations.md',
+  '/getting-started/roadmap': 'roadmap.md',
   '/pair-programming': 'pair-programming.md',
   '/code-reviews': 'code-reviews.md',
-  '/roadmap': 'roadmap.md',
   '/collaborative-learning': 'friendlyteamenvironment.md',
   '/best-practices': 'bestpractices.md',
   '/feedback': 'feedback.md'
@@ -42,6 +42,10 @@ for (var key in navItems){
     })
   })(navLink)
 }
+
+router.get('/getting-started/roadmap-visual', function(req, res){
+  res.render('roadmap-visual', {active: '/getting-started/roadmap-visual'})
+})
 
 router.get('/projects', function(req, res){
   res.render('projects', {active: '/projects'})
