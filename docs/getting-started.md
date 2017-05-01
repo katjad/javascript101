@@ -52,5 +52,5 @@ It's particularly important with Javascipt to make sure the resources you're usi
 
 Find out about the best and most up to date resources on our [Resources page](resources.html).
 
-## Next step
-Check out our [Roadmaps](/roadmap) page with some advice on integrating your goals with those of the group.
+## Progressing
+Check out our [Visual Roadmap](/getting-started/roadmap-visual) page to see a suggestion of different programming activities for different levels of JavScript. Or read about [integrating your goals with those of the group](/getting-started/roadmap).
