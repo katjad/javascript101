@@ -9,8 +9,9 @@ block content
     .section.row
       .jumbotron
         h1= title
+        p(class="lead")= message
         p(class="lead") We meet every two weeks to code, learn and collaborate.
-        p Are you new to JS101? Don't delay '
+        p Are you new to JS101? 
         div.actions
           a(class='btn btn-primary btn-lg' href='/getting-started') Get Started
 
@@ -21,32 +22,29 @@ block content
       h1 Kick start your JavaScript with a friendly bunch of enthusiasts
   
       .row
-        .col-lg-4
-          h2 Previous Events
-          p Find out what we've been up to
+        .col-lg-6
+          h2 Meetup Archive
           a(class='btn btn-primary' href='https://github.com/CodeHubOrg/discussions/issues') View Details
-        .col-lg-4
-          h2 Discussion
-          p Join us for a chat on our Gitter channel
-          a(class='btn btn-primary' href='https://gitter.im/CodeHubOrg/discussions/') View Details
-        .col-lg-4
-          h2 Awesome Projects
-          p Check out our latest projects
-          a(class='btn btn-primary' href='https://github.com/CodeHubOrg') View Details
+       
+        .col-lg-6
+          h2 Next Meetup
+          a(class='btn btn-primary' href='https://www.meetup.com/CodeHub-Bristol/') Sign Up
+
     .section.row
       .jumbotron
-        h1 How to Contribute
-        p Dive in to our Github Issues and see what you can do! 
-        p We also need pages proof read and welcome feedback, suggestions and pull requests.
-        a(class='btn btn-danger btn-lg' href='https://github.com/CodeHubOrg/javascript101/issues') Contribute
-            
-        a(class='btn btn-danger btn-lg' href='https://docs.google.com/forms/d/e/1FAIpQLSfpLqKTh6d0Gdd7juB6o5q-0G7_vAttrQ_wXh-URrp7cU9c_Q/viewform') Feedback 
+        h1 Join the Conversation
+
+        p Our Gitter channel. You will need a GitHub account.
+        a(class='btn btn-primary' href='https://gitter.im/CodeHubOrg/discussions/') Join the discussion
+
+
+    
     .section.bg
       .row
-        h1 Features
+        h1 What do we do?
         .col-lg-3
           h2 Presentations
-          p Learn more about JavaScript fundamentals
+          p You present and we all learn.
           a(class='btn btn-primary' href='/presentations') View Details
         .col-lg-3
           h2 Pair Programming
@@ -63,10 +61,10 @@ block content
       .row
         .col-lg-3
           h2 Guidance
-          p What to learn next
+          p What should I learn next?
           a(class='btn btn-primary' href='/roadmap') View Details
         .col-lg-3
-          h2 Best Practises
+          h2 Best Practice
           p Software development methodologies
           a(class='btn btn-primary' href='/best-practices') View Details
         .col-lg-3

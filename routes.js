@@ -10,7 +10,7 @@ var quotesJokes = require('./model/quotesJokes')
 router.get('/', function (req, res) {
   res.render('index', {
     title: 'Welcome to JavaScript 101',
-    message: 'We are a JavaScript meetup group in Bristol, UK. We meet every two weeks to code and learn.',
+    message: 'We are a JavaScript meetup group in Bristol, UK.',
     active: '/',
     logoList: logoList,
     sponsorList: sponsorList,
