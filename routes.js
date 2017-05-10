@@ -1,18 +1,22 @@
 var express = require('express')
 var router = express.Router()
-var logoList = require('./model/logo')
+var techList = require('./model/tech')
+var meetupList = require('./model/meetup')
 var sponsorList = require('./model/sponsor')
 var doc = require('./utils/doc')
 var quotesInspiration = require('./model/quotesInspiration')
 var quotesCrockford = require('./model/quotesCrockford')
 var quotesJokes = require('./model/quotesJokes')
 
+console.log(meetupList, techList)
+
 router.get('/', function (req, res) {
   res.render('index', {
     title: 'Welcome to JavaScript 101',
     message: 'We are a JavaScript meetup group in Bristol, UK.',
     active: '/',
-    logoList: logoList,
+    techList: techList,
+    meetupList: meetupList,
     sponsorList: sponsorList,
     quotesInspiration: quotesInspiration,
     quotesCrockford: quotesCrockford,
@@ -34,7 +38,7 @@ var navItems = {
   '/feedback': 'feedback.md'
 }
 
-for (var key in navItems){ 
+for (var key in navItems){
   var navLink = key;
   (function(link){
     router.get(link, function(req, res){

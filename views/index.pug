@@ -38,23 +38,24 @@ block content
     
     .section.bg
       .row
-        h1 What do we do?
-        .col-lg-3
-         h2 Presentations
-         a(href='/presentations')   
-          p You present and we all learn
-        .col-lg-3
-          h2 Pair Programming
-          a(href='/pair-programming') 
-          p Two heads are better than one
-        .col-lg-3
-          h2 Code Reviews
-          a(href='/code-reviews') 
-          p Improve your code
-        .col-lg-3
-          h2 Bleeding Edge
-          a(href='/tech-stack')
-          p Use the latest technologies
+        a(href='/what-we-do')
+          h1 What do we do?
+          .col-lg-3
+           h2 Presentations
+           a(href='/presentations')   
+            p You present and we all learn
+          .col-lg-3
+            h2 Pair Programming
+            a(href='/pair-programming') 
+            p Two heads are better than one
+          .col-lg-3
+            h2 Code Reviews
+            a(href='/code-reviews') 
+            p Improve your code
+          .col-lg-3
+            h2 Bleeding Edge
+            a(href='/tech-stack')
+            p Use the latest technologies
       .row
         .col-lg-3
           h2 Guidance
@@ -75,13 +76,18 @@ block content
   
       
         
-    .section.row.bg-light
+    .section.row
       h1 Technologies we use
         .row
-            +logoList(logoList)
+            +logoList(techList)
     
 
-    .section.row
+    .section.row.bg-light
       h1 Our Sponsors
-      +sponsorList(sponsorList)
-        
+        +sponsorList(sponsorList)
+      
+    .section.row
+      h1 Related Meetups
+        .row
+          +sponsorList(meetupList)
+      
