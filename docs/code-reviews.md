@@ -1,3 +1,3 @@
 # Code Reviews
 
-Get your code reviewed!
+![alt text](/img/page/wtf.png "Code Review")

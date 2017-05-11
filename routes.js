@@ -33,9 +33,10 @@ var navItems = {
   '/getting-started/roadmap': 'roadmap.md',
   '/pair-programming': 'pair-programming.md',
   '/code-reviews': 'code-reviews.md',
-  '/collaborative-learning': 'friendlyteamenvironment.md',
-  '/best-practices': 'bestpractices.md',
-  '/feedback': 'feedback.md'
+  '/team-environment': 'team-environment.md',
+  '/best-practices': 'best-practices.md',
+  '/feedback': 'feedback.md',
+  '/tech-stack': 'tech-stack.md'
 }
 
 for (var key in navItems){
