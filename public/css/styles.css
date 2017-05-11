@@ -74,6 +74,10 @@ h1{
   bottom: 2rem;
 }
 
+.what-we-do a {
+  color: #F7DF1E;
+}
+
 .poll {
   text-align: left;
 }
