@@ -67,6 +67,13 @@ h1{
   padding-bottom: 6rem;
 }
 
+.chat img {
+  width: 8rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
 .poll {
   text-align: left;
 }
