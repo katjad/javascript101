@@ -2,186 +2,55 @@ extends layout.pug
 
 block content
 
-	#container-fluid
+  .container
+    h1 Resources
 
-		// Video Tutorials
-		.row
+    .panel.panel-default
+      .panel-heading 
+        h2.panel-title If you just have 30mins
+          .panel-body 
+            p  Vanilla JavaScript challenges 
+              a(href="https://javascript30.com/") JavaScript30
 
-			.col-xs-12.col-sm-12.bg-success
-				h1 Video Tutorials
 
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Video Tutorial
-						p.card-text Text
+    .panel.panel-default
+      .panel-heading 
+        h2.panel-title Functional Programming
+          .panel-body 
+            p  Mostly adequate guide to functional programming 
+              a(href="https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details ") by Professor Franklin Risby
 
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Video Tutorial
-						p.card-text Text
+    .panel.panel-default
+      .panel-heading 
+        h2.panel-title Promise, promise and more promises!
+          .panel-body 
+            p  Learn about promises with this EDX course 
+              a(href="https://www.edx.org/course/asynchronous-programming-javascript-microsoft-dev234x-0#!") Asynchronous Programming with JavaScript
 
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Video Tutorial
-						p.card-text Text
+    .panel.panel-default
+      .panel-heading 
+        h2.panel-title If you want to read a book...
+          .panel-body 
+            p  
+              a(href="https://github.com/getify/You-Dont-Know-JS") You Don't Know JS (book series)
 
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Video Tutorial
-						p.card-text Text
-		// End Video Tutorials
+    .panel.panel-default
+      .panel-heading 
+        h2.panel-title Test your knowledge
+          .panel-body 
+            p 
+              a(href="https://github.com/rmurphey/js-assessment") JS Assesment by Rebecca Murphey - A test-driven approach to assessing JS skills
 
-		// Online Courses
-		.row
+    .panel.panel-default
+          .panel-heading 
+            h2.panel-title Become a Front End Master
+              .panel-body 
+                p 
+                  a(href="https://frontendmasters.gitbooks.io/front-end-handbook-2017/content/") Front End Developer Handbook 2017 
 
-			.col-xs-12.col-sm-12.bg-success
-				h1 Online Courses
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+  script(src='bootstrap/js/bootstrap.min.js')
+  script(src='../js/burgerNav.js')
 
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Coursera JS101
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Udemy React & Redux
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Codecamp CSS & JS
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Codecamp JS101
-						p.card-text Text
-		// End Online Courses
-
-		// Tutorials
-		.row
-
-			.col-xs-12.col-sm-12.bg-success
-				h1 Tutorials
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title React essentials
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Dom manipulation
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Promises
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Codecamp JS101
-						p.card-text Text
-		// End Tutorials
-
-		// Articles
-		.row
-
-			.col-xs-12.col-sm-12.bg-success
-				h1 Articles
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' data-src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Setting up webpack
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' data-src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Getting started with React
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' data-src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title High order functions
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' data-src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Promises, promises, promises
-						p.card-text Text
-		// End Articles
-
-		// Tools
-		.row
-
-			.col-xs-12.col-sm-12.bg-success
-				h1 Tools
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title npm
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Webpack
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Browserify
-						p.card-text Text
-
-			.col-sm-3
-				.card
-					img(class='card-img-top img-fluid' src='img/placeholder/200x200.jpg' alt='')
-					.card-block
-						h4.card-title Jasmine
-						p.card-text Text
-		// End Tools
-	// End .container-fluid
-
-	script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
-	script(src='bootstrap/js/bootstrap.min.js')
-	script(src='../js/burgerNav.js')
 
 
