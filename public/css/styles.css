@@ -1,18 +1,22 @@
 /* Base styles
 -------------------------------------------------- */
-body{
+body {
   font-size: 16px;
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'callunaregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-h1{
+h1 {
   margin-top: initial;
   margin-bottom: 0.5em;
   font-weight: bold;
+}
+
+h2 {
+  margin-top: 40px;
 }
 
 
@@ -214,7 +218,7 @@ body {
 
 .github-corner {
   fill: #f7df1e;
-  color: #151513;
+  color: #333333;
   /*position: relative;*/
   /*margin-top: 100%;*/
   border: 0;
