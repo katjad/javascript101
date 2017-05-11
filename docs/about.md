@@ -1,8 +1,8 @@
 # About
 
-Javascript 101 is a [CodeHub Bristol](https://www.meetup.com/CodeHub-Bristol/) meet up group that meets up every other Tuesday at 10am - 1pm at the [Beatroot cafe](http://www.beatrootcafe.com/) in Bristol, UK.
+Javascript 101 is a [CodeHub Bristol](https://www.meetup.com/CodeHub-Bristol/) meetup group. We get together every other at 10am - 1pm at the [Beatroot cafe](http://www.beatrootcafe.com/) in Bristol, UK.
 
-The main intention is to support and encourage each other in learning industry best practices in full-stack Javascript development; having a space reserved that is dedicated to learning JS. We might prepare [little talks](https://javascript101.gitbooks.io/guide/content/presentations.html), but it is not primarily about teaching, rather self-directed learning.
+Our main objective is to learn the JavaScript language to industry standards by supporting and encouraging each other. We do this by preparing [short presentations](https://javascript101.gitbooks.io/guide/content/presentations.html), running project demos, pair programming, suggesting resources and collaborating with each other.
 
 ## Mission Statement
 
@@ -10,13 +10,16 @@ The main intention is to support and encourage each other in learning industry b
 
 ## Format
 
-The major part of each session should be coding. We suggest certain topics \(so far we have done the coding challenges in [Eloquent JavaScript](http://eloquentjavascript.net/)\), but you can just as well bring your own project to work on; you can also work through [Codecademy](https://www.codecademy.com/) or similar. If you get stuck with any of these, feel free to ask others for help.
+We spend most of our time coding. Participants suggest topics that we can explore together - e.g. functions, callbacks, the DOM, ES6, etc. We also suggest coding challenges for beginners, like the ones found in the [Eloquent JavaScript](http://eloquentjavascript.net/)\).
 
-We have some time before and after the coding session where people can present something they are working on.
+Some people prefer to work through [Codecademy](https://www.codecademy.com/) or similar online learning courses. 
 
-We have also had "whiteboard sessions" where we have talked about programming concepts, for example different ways to declare a function. Sessions are optional, you don't have to sit through a talk if you aren't interested. You might want to go onto another table and pair program for example.
+We encourage everyone to give a presentation when they feel ready; this is a good way to learn and consolidate your knowledge. 
 
-### General **Agenda**
+We occasionally include a "whiteboard session" where we have talk about programming concepts, e.g. the different ways to declare a function. You don't have to sit through a session if you aren't interested;  you are welcome to do your own thing.
+
+
+### Example  **Agenda**
 
 **10:00** - Intros & Last Meeting Follow-up \(15 min\).
 
@@ -50,13 +53,16 @@ We have also had "whiteboard sessions" where we have talked about programming co
 
 ## Is this group for me?
 
-Is it for you? That's difficult to tell in advance, of course. We would say there is an emphasis on JavaScript as a programming language, not so much moving quickly to libraries like [jQuery](https://jquery.com/) to achieve all kinds of effects.
+Hopefully, we have provided enough information in order for you to decide whether this group is for you.
+
+Our emphasis is about learning JavaScript as a programming language.
+If you are an advanced programmer, we would also love to hear from you. If you can spare a Tuesday morning, come and say hello and maybe answer one or two questions about JavaScript :)
 
 All skill levels are welcome!
 
 ## Related Meet Ups
 
-[CodeHub](https://www.meetup.com/CodeHub-Bristol/) also organises a hack night at the Momentum Offices every other Tuesday 6pm - 9pm.
+[CodeHub](https://www.meetup.com/CodeHub-Bristol/) also organises a JavaScript hack night at the Momentum Offices every other Tuesday 6pm - 9pm.
 
 [Bristol JS](https://www.meetup.com/BristolJS/) is another great meet up group that holds talks and a social in the pub afterwards.
 
