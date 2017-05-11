@@ -10,11 +10,11 @@ There are many text editors to choose from such as [Atom](https://atom.io/), [Su
  
   If you want to do some remote pair programming, we have found [Glitch](https://glitch.com/) to be a very good tool. It allows you to easily set-up and deploy an app.
 
-##Web Developer Tools
+## Web Developer Tools
 You can't do web authoring without good developer tools. We recommend using:
 
-[Chrome Developer Tools](https://developer.chrome.com/devtools)
-[Firefox Developer Tools](https://developer.mozilla.org/son/docs/Tools)
+* [Chrome Developer Tools](https://developer.chrome.com/devtools)
+* [Firefox Developer Tools](https://developer.mozilla.org/son/docs/Tools)
 
 ## Source Control
 Source control allows you to manage versions of your code and contribute to projects.  We use [git](https://git-scm.com/) and host our projects on [github](https://github.com/CodeHubOrg).  We recommend using [Github Desktop](https://desktop.github.com/) to get started easily and progressing to the [command line](/getting-started/git) later.  
