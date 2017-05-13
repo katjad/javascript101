@@ -1,4 +1,19 @@
 extends layout.pug
 
 block head_added
-  link(href="/css/kstyles.css")
+  link(href="/css/kstyles.css" rel="stylesheet")
+
+block content
+  .main
+    .container
+      h1!= content
+    .container.container-subnav
+      .grid
+        div(class="grid__cell u-1/4--larger")
+          - var headinglink = contentBlocks[0].filename
+          - var heading = contentBlocks[0].heading
+          a(href=headinglink) !{heading}
+        div(class="grid__cell u-3/4--larger")
+          p Now working, yay!
+
+

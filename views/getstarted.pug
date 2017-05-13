@@ -1,0 +1,22 @@
+extends subpages.pug
+
+block head_added
+  include ../public/partials/head_roadmap.html
+
+block subnav
+  .subnav#sub
+    ul 
+      li 
+        <a class='btn btn-primary btn-lg' href='#submenu1'>Tools</a>
+      li 
+        <a class='btn btn-primary btn-lg' href='#submenu2'>Where to Start</a>
+
+block middlecontent
+  .sub.container
+    include ../public/partials/roadmap.html
+
+block footer  
+  script(src='vendor/jsPlumb/js/jsPlumb2.3.6.min.js')
+  script(src='js/roadmap.js')
+  script(src='js/stickyNav.js')
+  script(src='js/burgerNav.js')

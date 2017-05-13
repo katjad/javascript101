@@ -4,6 +4,7 @@ var techList = require('./model/tech')
 var meetupList = require('./model/meetup')
 var sponsorList = require('./model/sponsor')
 var doc = require('./utils/doc')
+var subpages = require('./utils/subpages')
 var quotesInspiration = require('./model/quotesInspiration')
 var quotesCrockford = require('./model/quotesCrockford')
 var quotesJokes = require('./model/quotesJokes')
@@ -47,6 +48,10 @@ for (var key in navItems){
   })(navLink)
 }
 
+router.get('/best-practices', function(req, res){
+  subpages.render('docs/reference', res, {active: '/getting-started', header1: 'Reference'})
+})
+
 router.get('/getting-started/roadmap-visual', function(req, res){
   res.render('roadmap-visual', {active: '/getting-started/roadmap-visual'})
 })
@@ -59,8 +64,6 @@ router.get('/resources', function(req, res){
   res.render('resources', {active: '/resources'})
 })
 
-router.get('/best-practices', function(req, res){
-  res.render('subpages', {active: '/getting-started'})
-})
+
 
 module.exports = router
