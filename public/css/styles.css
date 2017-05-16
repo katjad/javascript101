@@ -315,3 +315,32 @@ body {
     padding-bottom: 10rem;
   }
 }
+
+
+@media (min-width:1440px){
+  .container.container-subnav {
+    width: 1400;
+  }
+}
+
+.container.container-subnav ul {
+  list-style: none;
+}
+
+.container.container-subnav ul li {
+  list-style-type: none
+}
+
+.container.container-subnav h1 {
+  background: none;
+  text-align: left;
+  font-size: 24px;
+  color: #444;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
