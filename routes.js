@@ -29,11 +29,12 @@ var navItems = {
   '/getting-started': 'getting-started.md',
   '/getting-started/git': 'git.md',
   '/about': 'about.md',
+  '/best-practices': 'reference/best-practices.md',
   '/careers': 'careers.md',
-  '/presentations': 'presentations.md',
+  '/presentations': 'what-we-do/presentations.md',
   '/getting-started/roadmap': 'roadmap.md',
-  '/pair-programming': 'pair-programming.md',
-  '/code-reviews': 'code-reviews.md',
+  '/pair-programming': 'what-we-do/pair-programming.md',
+  '/code-reviews': 'what-we-do/code-reviews.md',
   '/team-environment': 'team-environment.md',
   '/feedback': 'feedback.md',
   '/tech-stack': 'tech-stack.md'
@@ -48,8 +49,12 @@ for (var key in navItems){
   })(navLink)
 }
 
-router.get('/best-practices', function(req, res){
-  subpages.render('docs/reference', res, {active: '/getting-started', header1: 'Reference'})
+// router.get('/reference', function(req, res){
+//   subpages.render('docs/reference', res, {active: '/reference', header1: 'Reference'})
+// })
+
+router.get('/what-we-do', function(req, res){
+  subpages.render('docs/what-we-do', res, {active: '/what-we-do', header1: 'What we do'})
 })
 
 router.get('/getting-started/roadmap-visual', function(req, res){

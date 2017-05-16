@@ -10,10 +10,21 @@ block content
     .container.container-subnav
       .grid
         div(class="grid__cell u-1/4--larger")
-          - var headinglink = contentBlocks[0].filename
-          - var heading = contentBlocks[0].heading
-          a(href=headinglink) !{heading}
+          ul
+            each contentBlock in contentBlocks
+              - var headinglink = '#'+contentBlock.filename
+              - var heading = contentBlock.heading
+              li
+                a(href=headinglink) !{heading}
         div(class="grid__cell u-3/4--larger")
-          p Now working, yay!
+          each contentBlock in contentBlocks
+            - var header = contentBlock.heading
+            - var headingId = contentBlock.filename
+            - var blockContent = contentBlock.content
+            span(id=!{headingId})
+            div!= blockContent
+            p &nbsp;
+            p &nbsp;
+            p &nbsp;
 
 

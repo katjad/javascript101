@@ -37,16 +37,23 @@ var render = function(dirPath, res, vars){
         list.forEach(function(filename){
           var file = path.join(dir, filename)
           fs.readFile(file, 'utf8', function(err, contents){
-            heading = filename.replace('-',' ').replace('.md','').replace(/\b\w/g, function(l){ return l.toUpperCase() }) //use all one regular expr!
+            filename = filename.replace('.md','')
+            heading = filename.replace('-',' ').replace(/\b\w/g, function(l){ return l.toUpperCase() }) //use all one regular expr!
             var contentsObj = {
               content: marked(contents),
               heading: heading,
-              filename: file
+              filename: filename
             }
             err ? console.error : 
             contentsArr.push(contentsObj)
             if(contentsArr.length == len){
-              res.render('subpages', {listNum: len, contentBlocks: contentsArr, content: vars.header1})
+              res.render('subpages', 
+                {
+                  listNum: len, 
+                  contentBlocks: contentsArr, 
+                  content: vars.header1,
+                  active: vars.active
+                })
             }
           })
         })
