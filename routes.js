@@ -34,7 +34,6 @@ var navItems = {
   '/pair-programming': 'pair-programming.md',
   '/code-reviews': 'code-reviews.md',
   '/team-environment': 'team-environment.md',
-  '/best-practices': 'best-practices.md',
   '/feedback': 'feedback.md',
   '/tech-stack': 'tech-stack.md'
 }
@@ -58,6 +57,10 @@ router.get('/projects', function(req, res){
 
 router.get('/resources', function(req, res){
   res.render('resources', {active: '/resources'})
+})
+
+router.get('/best-practices', function(req, res){
+  res.render('subpages', {active: '/getting-started'})
 })
 
 module.exports = router
