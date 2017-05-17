@@ -1,0 +1,11 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 250">
+  <defs>
+    <linearGradient id="linear-gradient" x1="125" y1="232" x2="125" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fb0766"/>
+      <stop offset="1" stop-color="#c50948"/>
+    </linearGradient>
+  </defs>
+  <title>gitter</title>
+  <path d="M232,109.71C232,59.06,184.09,18,125,18S18,59.06,18,109.71c0,48.77,44.41,88.64,100.46,91.54C122.14,219.81,125,232,125,232a246.25,246.25,0,0,0,51.71-42C209.68,174.39,232,144.29,232,109.71Z" style="fill: url(#linear-gradient)"/>
+  <path d="M88.15,58.56H98.62v69.1H88.15ZM151.8,75.31h10.47v52.35H151.8Zm-42.3,0H120v92.34H109.51Zm20.94,0h10.47v92.34H130.44Z" style="fill: #fff"/>
+</svg>
