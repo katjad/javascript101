@@ -65,10 +65,29 @@ h2 {
   margin-right: 0;
   margin-left: 0;
 }
+.row.inner {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.row.inner.meetup{
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.what-we-do h2 {
+  color: #F7DF1E;
+}
+
+
 
 .section{
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.no-bottom-gap{
+  margin-bottom: 0;
+  padding-bottom: 0
 }
 
 .chat img {
@@ -150,18 +169,26 @@ h3 {
   color: #444;
 }
 
-table {
-  border: 1px solid #444;
-}
 
 td, th {
   padding: 8px;
   vertical-align: top;
+}
+
+.roadmap table {
+  border: 1px solid #444;
+}
+
+.roadmap td, .roadmap th {
   border: 1px solid #aaa;
 }
 
-th {
+.roadmap th {
   background: #dedede
+}
+
+.about th {
+  height: 0;
 }
 
 /* Logo styles

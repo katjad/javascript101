@@ -1,7 +1,8 @@
 extends layout.pug
 
 block content
-  .main
+  - var activelink = active.substr(1).replace('/',' ')
+  div(class="main "+activelink)
     .container!= content
 
 block footer
