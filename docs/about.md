@@ -17,39 +17,17 @@ Some people prefer to work through [Codecademy](https://www.codecademy.com/) or 
 We encourage everyone to give a presentation when they feel ready; this is a good way to learn and consolidate your knowledge. 
 
 We occasionally include a "whiteboard session" where we have talk about programming concepts, e.g. the different ways to declare a function. You don't have to sit through a session if you aren't interested;  you are welcome to do your own thing.
+<p>&nbsp;</p>
 
+### Example  **Agenda** 
+|      |     |  |
+| ------------- |-------------| -----|
+|**10:00**| **Intros & Last Meeting Follow-up**<br /> \* Short 30 sec - 1 min intro from everyone \(if new members in group\).<br /> What stage of learning you're at and what you've been working on since the last meetup| 15 min |
+|**10:15**| **Session 1 \(30 min\)**<br /> \* Demo/presentation/discussion topic<br />15 min break for overruns/questions/drinks/setup for next session| 30 min |
+|**10:45**| **Session 2 \(30 min\)**<br /> \* Demo/presentation/discussion topic<br />* If nothing planned, go directly into coding | 30 min |
+|**11:15**| **Coding**<br />Can be:<br />- Coding on our apps<br />- Own project<br />- Tutorial<br /> \* Pair Programming, individual or in a group<br /> \* Use Gitter and Github repo issues for organising team app tasks| 95 min |
+|**12:50**|**Plan next week and Close**<br /> \* Next week's agenda suggestions added directly to the [Meetup Topics/Suggestions Git Kanban](https://github.com/orgs/CodeHubOrg/projects/4)| 10 min |
 
-### Example  **Agenda**
-
-**10:00** - Intros & Last Meeting Follow-up \(15 min\).
-
-* Short 30 sec - 1 min intro from everyone \(if new members in group\). Just 2 points: what stage of learning you're at and what you've been working on since the last meetup. New people can then get a grasp of what everyone is working on and who to direct questions to
-
-**10:15** - Session 1 \(30 min\)
-
-* Demo/presentation/discussion topic
-
-15 min break for overruns/questions/drinks/setup for next session
-
-**11:00 **- Session 2 \(30 min\)
-
-* Demo/presentation/discussion topic
-
-* If nothing planned, go directly into coding
-
-15 min break for overruns/questions/drinks/setup for next session
-
-**11:45** - Coding \(75 min\)
-
-* Focus on pair coding, either the team apps or individual apps
-
-* Use our [Git Kanban](https://github.com/orgs/CodeHubOrg/projects) for organising team app tasks
-
-**13:00** - Recap & next week’s topics \(5 min\)
-
-* Next week's agenda suggestions added directly to the [Meetup Topics/Suggestions Git Kanban](https://github.com/orgs/CodeHubOrg/projects/4)
-
-**Close**
 
 ## Is this group for me?
 
