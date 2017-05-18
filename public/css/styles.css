@@ -65,10 +65,29 @@ h2 {
   margin-right: 0;
   margin-left: 0;
 }
+.row.inner {
+  max-width: 1380px;
+  margin: 0 auto;
+}
+.row.inner.meetup{
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.what-we-do h2 {
+  color: #F7DF1E;
+}
+
+
 
 .section{
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+
+.no-bottom-gap{
+  margin-bottom: 0;
+  padding-bottom: 0
 }
 
 .chat img {

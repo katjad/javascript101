@@ -18,7 +18,7 @@ block content
     .section.row.bg
       h1 Kick start your JavaScript with a friendly bunch of enthusiasts
   
-      .row
+      .row.meetup.inner
         .col-lg-6
           h2 Meetup Archive
           a(class='btn btn-primary' href='https://github.com/CodeHubOrg/discussions/issues') View Details
@@ -36,48 +36,45 @@ block content
 
 
     
-    .section.bg
-      .row.what-we-do
+    .section.bg.no-bottom-gap
+      .row.what-we-do.inner
           h1 What do we do?
           .col-lg-3
-            a(href='/presentations')   
-              h2 Presentations
+            h2 Presentations
             p You present and we all learn
           .col-lg-3
-            a(href='/pair-programming') 
-              h2 Pair Programming
+            h2 Pair Programming
             p Two heads are better than one
           .col-lg-3
-            a(href='/code-reviews') 
-              h2 Code Reviews
+            h2 Code reviews
             p Improve your code
           .col-lg-3
-            a(href='/tech-stack')
-              h2 Bleeding Edge
-            p Use the latest technologies
-      .row.what-we-do
+            h2 Projects
+            p Contribute using Git
+
+    .section.bg.no-bottom-gap
+      .row.what-we-do.inner
+        h1 How do we benefit?
         .col-lg-3
-          a(href='getting-started/roadmap')
-            h2 Guidance
+          h2 Guidance
           p What should I learn next?
         .col-lg-3
-          a(href='/best-practices')
-           h2 Best Practice
+          h2 Best Practice
           p Software development methodologies
         .col-lg-3
-          a(href='/team-environment')
-            h2 Team Environment
+          h2 Team Environment
           p Sharing is caring
         .col-lg-3
-          a(href='/careers')
-            h2 Level Up
+          h2 Level Up
           p Get prepared for professional work
-  
+      .section.row 
+          div.actions
+            a(class='btn btn-primary' href='/about') Read more  
       
         
     .section.row
       h1 Technologies we use
-        .row
+        .row.inner
             +logoList(techList)
     
 
@@ -87,6 +84,6 @@ block content
       
     .section.row
       h1 Related Meetups
-        .row
+        .row.inner
           +sponsorList(meetupList)
       
