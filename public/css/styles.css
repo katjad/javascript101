@@ -405,9 +405,9 @@ body {
   padding-bottom: 0;
 }
 
-@media (max-width: 768){
+@media (max-width: 768px){
 .active-sub1 {
-  max-height: 250px;
+  max-height: 200px;
   overflow-y: scroll;
   }
 }
@@ -510,7 +510,7 @@ body {
   }  
 }
 
-.offset {
+/*.offset {
   margin-top: 300px;
 }
 @media (min-width: 768px){
@@ -518,7 +518,7 @@ body {
     margin-top: 20px;
   }
 }
-
+*/
 body {
   height: auto !important;
 }

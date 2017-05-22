@@ -49,7 +49,7 @@ function initSmoothScrolling() {
       //console.log(e.target.hash)
       jump(e.target.hash, {
         duration: duration,
-        offset: -350
+        offset: -290
       });
       // var link = e.target.hash.substr(1);
       // console.log(link);
