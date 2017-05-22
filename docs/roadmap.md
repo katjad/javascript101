@@ -3,7 +3,7 @@ The JS101 group is just over 2 years old and has changed and evolved over that t
 
 *Note: We don't teach JavaScript, this is not a linear course. You are responsible for your own learning, but we believe that reserving a time and place for it, and coding together with other developers, can enhance your learning a lot.*       
 <br />                                            
-## What and how do you want to learn?
+## What and how do you learn
 
 **1. Set goals**       
 (..and feel free to change them every now and then)     
@@ -25,7 +25,7 @@ Some questions that might help you to decide what to do each session, alongside 
 |3. What is a good resource or topic to work through at the moment? | We started short presentations about functions (from how to declare them to higher order functions) Would be a good thing to pick up again I think!  | Possible resources for beginners: <br />- Free Code Camp <br />- Udacity <br />- Books: Eloquent JavaScript, YDKJS<br />See [Getting started](/getting-started) |
 
 
-## A generic roadmap for learning JavaScript   
+## A generic roadmap  
        
 If you are just interested in learning JavaScript as a language, this is a breakdown of steps. You can start building and contributing at any step, of course, though I find it helps a lot to have gained some fluency.        
          
@@ -45,7 +45,7 @@ I have found there is a certain back and forth between studying language concept
 
 Finally, here are some [fantastic roadmaps](https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md) with different technologies to learn if you want to go into web development
 
-## About learning and making progress      
+## About learning and progress      
 
 For now, some links, but I would like to expand this section in the future
          

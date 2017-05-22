@@ -6,7 +6,7 @@ Our main objective is to learn the JavaScript language to industry standards by 
 
 ## Mission Statement
 
-> A collaborative learning environment for learning Javascript best practises to industry standard.
+A collaborative learning environment for learning Javascript best practises to industry standard.
 
 ## Format
 
@@ -17,7 +17,6 @@ Some people prefer to work through [Codecademy](https://www.codecademy.com/) or 
 We encourage everyone to give a presentation when they feel ready; this is a good way to learn and consolidate your knowledge. 
 
 We occasionally include a "whiteboard session" where we have talk about programming concepts, e.g. the different ways to declare a function. You don't have to sit through a session if you aren't interested;  you are welcome to do your own thing.
-<p>&nbsp;</p>
 
 ### Example  **Agenda** 
 |      |     |  |
@@ -29,7 +28,7 @@ We occasionally include a "whiteboard session" where we have talk about programm
 |**12:50**|**Plan next week and Close**<br /> \* Next week's agenda suggestions added directly to the [Meetup Topics/Suggestions Git Kanban](https://github.com/orgs/CodeHubOrg/projects/4)| 10 min |
 
 
-## Is this group for me?
+## Is this group for me
 
 Hopefully, we have provided enough information in order for you to decide whether this group is for you.
 

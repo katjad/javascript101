@@ -3,29 +3,6 @@ var fs = require('fs')
 var marked = require('marked')
 var REPO_URL = 'https://github.com/CodeHubOrg/javascript101/blob/master/docs/'
 
-// var render = function(filesArr, res, vars){
-//   contentsArr = []
-//   var numFiles = filesArr.length
-//   filesArr.map(function(filename){    
-//     var file = path.join(__dirname, '../docs' ,filename)
-//     fs.readFile(file, 'utf8', function(err, contents){
-//       var contentsObj = {
-//         content: marked(contents),
-//         editUrl: REPO_URL+filename
-//       }
-//       err ? console.error :
-//       contentsArr.push(contentsObj)
-//       if(contentsArr.length == numFiles){
-//         console.log(contentsArr)
-//         if(contentsArr[0].editUrl == 'https://github.com/CodeHubOrg/javascript101/blob/master/docs/roadmap.md'){
-//           contentsArr = [contentsArr[1], contentsArr[0]]
-//         }
-//         res.render('getstarted', {contentblocks: contentsArr, active:vars.active})
-//       }
-//     })
-//   })
-// }
-
 var render = function(dirPath, res, vars){
   var dir =  path.join(__dirname,'..', dirPath)
   contentsArr = []
@@ -60,8 +37,7 @@ var render = function(dirPath, res, vars){
        
      }
   })
-}  
-
+}
 
 module.exports = {
   render: render

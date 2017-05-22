@@ -3,13 +3,15 @@ var router = express.Router()
 var techList = require('./model/tech')
 var meetupList = require('./model/meetup')
 var sponsorList = require('./model/sponsor')
+var nav = require('./model/nav')
 var doc = require('./utils/doc')
+var docsidenav = require('./utils/docsidenav')
 var subpages = require('./utils/subpages')
 var quotesInspiration = require('./model/quotesInspiration')
 var quotesCrockford = require('./model/quotesCrockford')
 var quotesJokes = require('./model/quotesJokes')
 
-console.log(meetupList, techList)
+// console.log(meetupList, techList)
 
 router.get('/', function (req, res) {
   res.render('index', {
@@ -25,29 +27,58 @@ router.get('/', function (req, res) {
   })
 })
 
-var navItems = {
-  '/getting-started': 'getting-started.md',
-  '/getting-started/git': 'git.md',
-  '/about': 'about.md',
-  '/best-practices': 'reference/best-practices.md',
-  '/careers': 'careers.md',
-  '/presentations': 'what-we-do/presentations.md',
-  '/getting-started/roadmap': 'roadmap.md',
-  '/pair-programming': 'what-we-do/pair-programming.md',
-  '/code-reviews': 'what-we-do/code-reviews.md',
-  '/team-environment': 'team-environment.md',
-  '/feedback': 'feedback.md',
-  '/tech-stack': 'tech-stack.md'
+function removeMd(link){
+  return (link.substr(-3)) == '.md' ? link.slice(0,-3) : link;
 }
 
-for (var key in navItems){
-  var navLink = key;
-  (function(link){
+for (var key in nav){
+  var pages = nav[key];
+  var subpages = Object.keys(pages).map(function(key){
+    return [key, removeMd(pages[key])]
+  })
+  var sectionTitle = key.replace('/','').replace(/\b\w/g, function(l){ return l.toUpperCase()})
+  console.log(subpages)
+  for (var pagekey in pages) {
+    var pathpart = pages[pagekey];
+    var navLink = removeMd(pathpart); 
+    var pagetitle = sectionTitle+' - '+pagekey;
+    var itemVars = {
+      active: key,
+      pagetitle: sectionTitle,
+      title: pagekey,
+      subnav: subpages
+    };
+    (function(link, path, vars){
     router.get(link, function(req, res){
-      doc.render(navItems[link], res, {active: link})
-    })
-  })(navLink)
+      docsidenav.render(path, res, vars);
+      })       
+    })(navLink, pathpart, itemVars)
+  }
 }
+
+// var navItems = {
+//   '/getting-started': 'getting-started.md',
+//   '/getting-started/git': 'git.md',
+//   '/about': 'about.md',
+//   '/best-practices': 'reference/best-practices.md',
+//   '/careers': 'careers.md',
+//   '/presentations': 'what-we-do/presentations.md',
+//   '/getting-started/roadmap': 'roadmap.md',
+//   '/pair-programming': 'what-we-do/pair-programming.md',
+//   '/code-reviews': 'what-we-do/code-reviews.md',
+//   '/team-environment': 'team-environment.md',
+//   '/feedback': 'feedback.md',
+//   '/tech-stack': 'tech-stack.md'
+// }
+
+// for (var key in navItems){
+//   var navLink = key;
+//   (function(link){
+//     router.get(link, function(req, res){
+//       doc.render(navItems[link], res, {active: link})
+//     })
+//   })(navLink)
+// }
 
 // router.get('/reference', function(req, res){
 //   subpages.render('docs/reference', res, {active: '/reference', header1: 'Reference'})

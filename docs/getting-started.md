@@ -1,7 +1,6 @@
-# Getting Started
-
 ## Group Chat
 We use [Gitter](https://gitter.im) to discuss JavaScript, our[Projects](projects.html),share useful [Resources](resources.html) and keep the conversation going. Create a [github](https://github.com/) account and [join in](https://gitter.im/CodeHubOrg/discussions)! Then request to join CodeHubOrg on Github to start collaborating.
+
 
 ## Code Editors
 There are many text editors to choose from such as [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/), [Visual Studio Code](https://code.visualstudio.com/), [Vim](www.vim.org/), etc. Or choose from other powerful IDE's such as [WebStorm](https://www.jetbrains.com/webstorm/).
