@@ -1,22 +1,9 @@
 extends layout.pug
 
 block content
-  p!= active
-  p!= title 
-  ul 
-    each val in subnav
-      if val == title 
-        li 
-          strong #{val}
-          ul 
-            li subsubnav1
-            li subsubnav2
-      else   
-        li #{val}
-
 
   - var activelink = active.substr(1).replace('/',' ')
-  div(class="main "+activelink)
+  div(class="main-wrapper main "+activelink)
     .container!= content
 
 block footer

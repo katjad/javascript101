@@ -405,16 +405,10 @@ body {
   padding-bottom: 0;
 }
 
-
-
+@media (max-width: 768){
 .active-sub1 {
   max-height: 250px;
   overflow-y: scroll;
-}
-@media (min-width: 900px){
-  .active-sub1 {
-    max-height: 2000px;
-    overflow: auto;
   }
 }
 
@@ -479,6 +473,9 @@ body {
 }
 
 @media (min-width: 900px){
+  .main-wrapper {
+    padding-right: 15px;
+  }
   .container, .container.container-subnav {
     padding-left: 15px;
     padding-right: 15px;
