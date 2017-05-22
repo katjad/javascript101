@@ -1,0 +1,15 @@
+extends docsidenav.pug
+
+block head_added
+  link(href="/css/kstyles.css" rel="stylesheet")
+  script(src = "/vendor/js/jump.js")
+  script(rel="stylesheet" href="/vendor/jsPlumb/css/jsplumbtoolkit-default.css")
+
+block content_pre
+  include ../public/partials/roadmap.html
+
+block scripts
+  script(src = "/vendor/jsPlumb/js/jsPlumb2.3.6.min.js")
+  script(src = "/js/roadmap.js")
+  script(src = "/js/scripts.js")
+  script(src = "/js/burgerNav.js")

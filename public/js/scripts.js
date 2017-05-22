@@ -215,35 +215,3 @@ var Sticky = (function() {
 var sticky = document.querySelector('.sticky');
 if (sticky)
   Sticky.init(sticky);
-
-
-// offset anchors
-// that's all above much more concise!!!
-// (function(){
-//    var anchors = document.getElementsByTagName('a');
-//    var len = anchors.length;
-//    // console.log("Number anchors ", len);
-//    for(i = 0; i < len; i++){
-//      var j = i;
-//      (function(n){
-//      if (anchors[n].href.indexOf('#') > -1){
-//        var index = anchors[n].href.indexOf('#')
-//        var link = anchors[n].href.substr(index+1)
-//        // console.log("Link ",link);
-//        // anchors[i].style.background = 'red';
-//          anchors[n].addEventListener('click', function(){
-//            var target = document.getElementById(link);
-//            var headings = document.getElementsByTagName('h2');
-//            var hlength = headings.length;
-//            for(i = 0; i < hlength; i++){
-//             headings[i].classList.remove('offset');
-//            }
-//            target.classList.add('offset');
-//          })
-//        }})(j)
-//      }
-// })()
-   
-
-
-

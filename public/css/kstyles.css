@@ -682,6 +682,15 @@ h4 {
   background: rgba(255,255,255,0.7);
 }
 
+#jtk-flow {
+  display: none;
+}
+@media (min-width: 768px){
+  #jtk-flow {
+    display: block;
+  }
+}
+
 
 /** currently not used **/
 

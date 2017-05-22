@@ -36,7 +36,7 @@ for (var key in nav){
   var subpages = Object.keys(pages).map(function(key){
     return [key, removeMd(pages[key])]
   })
-  var sectionTitle = key.replace('/','').replace(/\b\w/g, function(l){ return l.toUpperCase()})
+  var sectionTitle = key.replace('/','').replace(/-/g,' ').replace(/\b\w/g, function(l){ return l.toUpperCase()})
   console.log(subpages)
   for (var pagekey in pages) {
     var pathpart = pages[pagekey];
@@ -55,42 +55,6 @@ for (var key in nav){
     })(navLink, pathpart, itemVars)
   }
 }
-
-// var navItems = {
-//   '/getting-started': 'getting-started.md',
-//   '/getting-started/git': 'git.md',
-//   '/about': 'about.md',
-//   '/best-practices': 'reference/best-practices.md',
-//   '/careers': 'careers.md',
-//   '/presentations': 'what-we-do/presentations.md',
-//   '/getting-started/roadmap': 'roadmap.md',
-//   '/pair-programming': 'what-we-do/pair-programming.md',
-//   '/code-reviews': 'what-we-do/code-reviews.md',
-//   '/team-environment': 'team-environment.md',
-//   '/feedback': 'feedback.md',
-//   '/tech-stack': 'tech-stack.md'
-// }
-
-// for (var key in navItems){
-//   var navLink = key;
-//   (function(link){
-//     router.get(link, function(req, res){
-//       doc.render(navItems[link], res, {active: link})
-//     })
-//   })(navLink)
-// }
-
-// router.get('/reference', function(req, res){
-//   subpages.render('docs/reference', res, {active: '/reference', header1: 'Reference'})
-// })
-
-router.get('/what-we-do', function(req, res){
-  subpages.render('docs/what-we-do', res, {active: '/what-we-do', header1: 'What we do'})
-})
-
-router.get('/getting-started/roadmap-visual', function(req, res){
-  res.render('roadmap-visual', {active: '/getting-started/roadmap-visual'})
-})
 
 router.get('/projects', function(req, res){
   res.render('projects', {active: '/projects'})
