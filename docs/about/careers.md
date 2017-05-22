@@ -1,5 +1,3 @@
-# Careers
-
 Our group is great for either getting into a web development career or for progressing your existing career. We use current industry standard software (mostly open source) and techniques and work together collaboratively using Git in exactly the same way as is used in a work-based commercial environment.
 
 ## Our Tech Stack

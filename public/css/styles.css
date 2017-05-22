@@ -408,8 +408,14 @@ body {
 
 
 .active-sub1 {
- /* background: #f4f4f4;*/
-/* border: 1px solid #ccc;*/
+  max-height: 250px;
+  overflow-y: scroll;
+}
+@media (min-width: 900px){
+  .active-sub1 {
+    max-height: 2000px;
+    overflow: auto;
+  }
 }
 
 .active-sub1 h2{
@@ -438,7 +444,7 @@ body {
 
 .subnav {
   background: #fff;
-  width: 100%;
+  width: 100%; 
 }
 
 .is-fixed {

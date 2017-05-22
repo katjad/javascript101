@@ -1,5 +1,3 @@
-# Best Practices
-
 ## Hammock Driven Development
 
 Before you dive into coding, take a step back and think about the problem.

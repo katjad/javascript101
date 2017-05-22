@@ -1,4 +1,3 @@
-# Git
 ## What is Git?
 >The purpose of Git is to manage a project, or a set of files, as they change over time.  It also coordinates work on those files among multiple people.
 

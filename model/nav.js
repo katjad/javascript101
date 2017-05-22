@@ -8,6 +8,10 @@ var nav = {
     "/getting-started": {
         "Getting started": "/getting-started.md",
         "Roadmap": "/roadmap.md"
+    },
+    "/reference": {
+      "Best Practices": "/reference.md",
+      "Git": "/reference/git.md"
     }
 }
 
