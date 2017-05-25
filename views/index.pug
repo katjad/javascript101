@@ -66,8 +66,7 @@ block content
           h2 Level Up
           p Get prepared for professional work
       .section.row 
-          div.actions
-            a(class='btn btn-primary' href='/about') Read more      
+          
         
     .section.row
       h1 Technologies we use
@@ -75,12 +74,8 @@ block content
             +logoList(techList)
     
 
-    .section.row.bg-light
+    .section.row.bg-light.no-bottom-gap
       h1 Our Sponsors
         +sponsorList(sponsorList)
       
-    .section.row
-      h1 Related Meetups
-        .row.inner
-          +sponsorList(meetupList)
       

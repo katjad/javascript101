@@ -5,11 +5,6 @@ var sponsorList = [
     alt: "Momentum Financial Technology logo"
   },
   {
-    url: "http://moltin.com/",
-    src: "/img/sponsor/moltin.jpeg",
-    alt: "Moltin logo"
-  },
-  {
     url: "https://www.digitalocean.com/",
     src: "/img/sponsor/digital-ocean.jpeg",
     alt: "Digital Ocean logo"
