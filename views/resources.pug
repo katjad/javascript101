@@ -3,66 +3,67 @@ extends layout.pug
 block content
 
   .container
+
     h1 Resources
     p We are developing a React app to curate all the resources that we have found useful. In the meantime, here are just a handful of our favourites.
 
-    .panel.panel-default
-      .panel-heading 
-        h2.panel-title If you just have 30mins
-          .panel-body 
-            p  Vanilla JavaScript challenges 
-              a(href="https://javascript30.com/") JavaScript30
+    ul(class="list-group")
+      
+      li(class="list-group-item")
+        h2 If you just have 30mins
+        p Vanilla JavaScript challenges 
+        a(href="https://javascript30.com/") JavaScript30
+     
+      li(class="list-group-item")
+        h2 Functional Programming
+        p Professor Franklin Risby's 
+        a(href="https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details ") Mostly adequate guide to functional programming 
+
+      li(class="list-group-item")
+        h2 Promise, promise and more promises!
+        p Learn about promises with this EDX course 
+        a(href="https://www.edx.org/course/asynchronous-programming-javascript-microsoft-dev234x-0#!") Asynchronous Programming with JavaScript
+
+      li(class="list-group-item")
+        h2 If you don't know your JavaScript...
+        p  
+        a(href="https://github.com/getify/You-Dont-Know-JS") You Don't Know JS (book series)
+
+      li(class="list-group-item")
+        h2 If you just want to learn the good parts
+        p  
+        a(href="http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf")  JavaScript the good parts
+
+      li(class="list-group-item")
+        h2 If you just want to become a JavaScript ninja
+        p  
+        a(href="https://www.manning.com/books/secrets-of-the-javascript-ninja") Secrets of the JavaScript Ninja
+
+      li(class="list-group-item")
+        h2 If you just want to know how to write clean code...
+        p  Robert C. Martin Series
+        a(href="http://ricardogeek.com/docs/clean_code.pdf") Clean code
 
 
-    .panel.panel-default
-      .panel-heading 
-        h2.panel-title Functional Programming
-          .panel-body 
-            p  Professor Franklin Risby's 
-              a(href="https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details ") Mostly adequate guide to functional programming 
+      li(class="list-group-item")
+        h2 If you want to test your knowledge...
+        p 
+        a(href="https://github.com/rmurphey/js-assessment") JS Assesment by Rebecca Murphey - A test-driven approach to assessing JS skills
 
-    .panel.panel-default
-      .panel-heading 
-        h2.panel-title Promise, promise and more promises!
-          .panel-body 
-            p  Learn about promises with this EDX course 
-              a(href="https://www.edx.org/course/asynchronous-programming-javascript-microsoft-dev234x-0#!") Asynchronous Programming with JavaScript
+      li(class="list-group-item")
+        h2 If you want documentation in one place
+        p Languages, frameworks, CSS, HTML, etc.
+        a(href="http://devdocs.io/") Dev Docs
 
-    .panel.panel-default
-      .panel-heading 
-        h2.panel-title If you like watching YouTube videos
-          .panel-body 
-            p  Mattias Petter Johansson's 
-              a(href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q") funfunfunction channel
+      li(class="list-group-item")
+        h2 If you don't want to remember all the Git commands
+        p Use a quick reference
+        a(href="http://gitref.org/") Git Reference
 
-    .panel.panel-default
-      .panel-heading 
-        h2.panel-title If you like lisening to Podcasts
-          .panel-body 
-            p  We are fans of 
-              a(href="https://devchat.tv/js-jabber") JavaScript Jabber.
-
-
-    .panel.panel-default
-      .panel-heading 
-        h2.panel-title If you want to read a book...
-          .panel-body 
-            p  
-              a(href="https://github.com/getify/You-Dont-Know-JS") You Don't Know JS (book series)
-
-    .panel.panel-default
-      .panel-heading 
-        h2.panel-title If you want to test your knowledge
-          .panel-body 
-            p 
-              a(href="https://github.com/rmurphey/js-assessment") JS Assesment by Rebecca Murphey - A test-driven approach to assessing JS skills
-
-    .panel.panel-default
-          .panel-heading 
-            h2.panel-title If you want to become a Front End Master
-              .panel-body 
-                p 
-                  a(href="https://frontendmasters.gitbooks.io/front-end-handbook-2017/content/") Front End Developer Handbook 2017 
+      li(class="list-group-item")
+        h2 If you want to become a Front End Master
+        p 
+        a(href="https://frontendmasters.gitbooks.io/front-end-handbook-2017/content/") Front End Developer Handbook 2017 
 
   script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
   script(src='bootstrap/js/bootstrap.min.js')
