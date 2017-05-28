@@ -1,19 +1,17 @@
 var sponsorList = [
   {
     url: "http://www.momentumfinancialtechnology.com/",
-    src: "/img/sponsor/momentum.png",
-    alt: "Momentum Financial Technology logo"
+    style: "background-position: -660px 0; width: 120px; height: 31px;" 
   },
   {
     url: "https://www.digitalocean.com/",
-    src: "/img/sponsor/digital-ocean.jpeg",
-    alt: "Digital Ocean logo"
+    style: "background-position: -790px 0; width: 120px; height: 90px;"
   },
   {
     url: "https://www.ovoenergy.com/",
-    src: "/img/sponsor/ovo-energy.jpeg",
-    alt: "OVO Energy logo"
+    style: "background-position: -920px 0; width: 120px; height: 49px;"
   }
 ];
 
 module.exports = sponsorList
+

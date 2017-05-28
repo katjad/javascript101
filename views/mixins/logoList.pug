@@ -1,7 +1,7 @@
 mixin logo(logo)
     li(class="col-lg-2 col-md-2 col-sm-3 col-xs-4")
-      a(href=logo.url, class="block")
-        img(src=logo.src, alt=logo.alt, class="img-responsive center-block")
+      a(href=logo.url, class="block", rel="external")
+        div(class="sprite" style=logo.style)
 
 mixin logoList(logoList)
   div.logos
