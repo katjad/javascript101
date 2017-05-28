@@ -1,10 +1,11 @@
 mixin sponsor(sponsor)
     li
-      a(href=sponsor.url, class="block")
-        img(src=sponsor.src, alt=sponsor.alt, class="img-responsive center-block")
+      a(href=sponsor.url, class="block", rel="external")
+        div(class="sprite" style=sponsor.style)
 
 mixin sponsorList(sponsorList)
   div.sponsors
     ul.row
       for sponsor in sponsorList
         +sponsor(sponsor)
+
