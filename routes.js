@@ -69,6 +69,8 @@ router.get('/resources', function(req, res){
   res.render('resources', {active: '/resources'})
 })
 
-
+router.get('/contact', function(req, res){
+  res.render('contact', {active: '/contact'})
+})
 
 module.exports = router
