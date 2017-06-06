@@ -1,6 +1,6 @@
 # About
 
-Javascript 101 is a [CodeHub Bristol](https://www.meetup.com/CodeHub-Bristol/) meetup group. We get together every other at 10am - 1pm at the [Beatroot cafe](http://www.beatrootcafe.com/) in Bristol, UK.
+Javascript 101 is a [CodeHub Bristol](https://www.meetup.com/CodeHub-Bristol/) meetup group. We get together every other Tuesday at 10am - 1pm at the [Beatroot cafe](http://www.beatrootcafe.com/) in Bristol, UK.
 
 Our main objective is to learn the JavaScript language to industry standards by supporting and encouraging each other. We do this by preparing [short presentations](https://javascript101.gitbooks.io/guide/content/presentations.html), running project demos, pair programming, suggesting resources and collaborating with each other.
 

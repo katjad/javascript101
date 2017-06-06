@@ -20,8 +20,8 @@ Some questions that might help you to decide what to do each session, alongside 
 
 | Questions      | CodeHub         | Individual  |
 | ------------- |-------------| -----|
-|1. What is your overall goal?  | Providing a collaborative learning environment for learning Javascript best practises to industry standard. |Is my goal to work as a (front-end) developer?  <br />Is there a particular area within JS that I need to or want to learn?  <br />Are there some intersecting skills I'd like to learn? Git, Command line, presenting about code?  <br />If more advanced, would I like to get experience in mentoring people? |
-|2. What to work on in the upcoming coding session?    | Currently: <br />- Working on a site for the group <br />- Working on a React-Redux App |  Am I at this point interested in collaborating on a project? Or would I rather concentrate on learning JS syntax and concepts for now?  |
+|1. What is my overall goal?  | Providing a collaborative learning environment for learning Javascript best practises to industry standard. |Is my goal to work as a (front-end) developer?  <br />Is there a particular area within JS that I need to or want to learn?  <br />Are there some intersecting skills I'd like to learn? Git, Command line, presenting about code?  <br />If more advanced, would I like to get experience in mentoring people? |
+|2. What should I work on in the upcoming coding session?    | Currently: <br />- Working on a site for the group <br />- Working on a React-Redux App |  Am I at this point interested in collaborating on a project? Or would I rather concentrate on learning JS syntax and concepts for now?  |
 |3. What is a good resource or topic to work through at the moment? | We started short presentations about functions (from how to declare them to higher order functions) Would be a good thing to pick up again I think!  | Possible resources for beginners: <br />- Free Code Camp <br />- Udacity <br />- Books: Eloquent JavaScript, YDKJS<br />See [Getting started](/getting-started) |
 
 
@@ -41,7 +41,7 @@ If you are just interested in learning JavaScript as a language, this is a break
 
 Other skills useful to know  about in front-end development (and essential for most jobs): HTML, CSS, basic commandline, Git - we sometimes go on little side trips to cover these, especially [Git](/getting-started/git)
                
-I have found there is a certain back and forth between studying language concepts and then practicing, either by doing coding challenges, or building something. You start working through a book but then start intensely working on a project, and forget the book.. or you discover another one and start working through that. But perhaps other people are more consistent than me!
+I have found there is a certain back and forth between studying language concepts and then practising, either by doing coding challenges, or building something. You start working through a book but then start intensely working on a project, and forget the book.. or you discover another one and start working through that. But perhaps other people are more consistent than me!
 
 Finally, here are some [fantastic roadmaps](https://github.com/kamranahmedse/developer-roadmap/blob/master/README.md) with different technologies to learn if you want to go into web development
 
