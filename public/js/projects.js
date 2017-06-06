@@ -32,7 +32,7 @@ const appendCard = (card, locationToAppend) => {
 document.addEventListener("DOMContentLoaded", function (event) {
 
   // cache DOM
-  const appendLocation = document.querySelector('.row')
+  const appendLocation = document.querySelector('.row-github')
 
   // append projects to page - the fetch will go here and teh forEach inside the fetch.
   // making too many api calls, so temporarily disabled this bit and using testApiResponse

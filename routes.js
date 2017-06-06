@@ -3,6 +3,7 @@ var router = express.Router()
 var techList = require('./model/tech')
 var meetupList = require('./model/meetup')
 var sponsorList = require('./model/sponsor')
+var projectList = require('./model/project')
 var doc = require('./utils/doc')
 var subpages = require('./utils/subpages')
 var quotesInspiration = require('./model/quotesInspiration')
@@ -18,7 +19,7 @@ router.get('/', function (req, res) {
     active: '/',
     techList: techList,
     meetupList: meetupList,
-    sponsorList: sponsorList,
+    sponsorList: sponsorList,   
     quotesInspiration: quotesInspiration,
     quotesCrockford: quotesCrockford,
     quotesJokes: quotesJokes
@@ -62,7 +63,7 @@ router.get('/getting-started/roadmap-visual', function(req, res){
 })
 
 router.get('/projects', function(req, res){
-  res.render('projects', {active: '/projects'})
+  res.render('projects', {active: '/projects', projectList: projectList})
 })
 
 router.get('/resources', function(req, res){
