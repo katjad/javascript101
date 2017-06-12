@@ -154,9 +154,10 @@
 
     // jsp1.batch(function(){
     function populateLearningSteps(){
-    var flowPanel = document.getElementById("jtk-flow"), devPanel = document.getElementById("jtk-webdev");
+    var flowPanel = document.getElementById("jtk-flow");
+    //, devPanel = document.getElementById("jtk-webdev");
     flowPanel.style.height = "1100px";
-    devPanel.style.height = "1100px";
+    // devPanel.style.height = "1100px";
     learningSteps.map(function(step, index){     
         var el = document.getElementById(step.id);
         el.classList.add("step");

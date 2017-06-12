@@ -58,9 +58,9 @@ router.get('/what-we-do', function(req, res){
   subpages.render('docs/what-we-do', res, {active: '/what-we-do', header1: 'What we do'})
 })
 
-router.get('/getting-started/roadmap-visual', function(req, res){
-  res.render('roadmap-visual', {active: '/getting-started/roadmap-visual'})
-})
+// router.get('/getting-started/roadmap', function(req, res){
+//   res.render('roadmap', {active: '/getting-started/roadmap'})
+// })
 
 router.get('/projects', function(req, res){
   res.render('projects', {active: '/projects', projectList: projectList})

@@ -30,14 +30,6 @@ var projectList = [
     alt: "screenshot Today I learned",
     name: "Today I learned",
     description: "Using React to pull in Items from a Google spreadsheet",
-  },
-  {
-    githubUrl: "https://github.com/rinse0ut/kitty",
-    demoUrl: "https://rinse0ut.github.io/",
-    src: "/img/projects/kitty.jpg",
-    alt: "screenshot kitty",
-    name: "Kitty",
-    description: "Progressive web app for mobile, helping you to track your expenses"
   }, 
   {
     githubUrl: "https://github.com/timhandy/simon",
@@ -46,7 +38,38 @@ var projectList = [
     alt: "screenshot Simon",
     name: "Simon",
     description: "Free Code Camp assignment using HTML, CSS, JS and jQuery",
-  }
+  },
+   {
+    demoUrl: "http://webpidgin.co.uk/",
+    src: "/img/projects/letteraid.jpg",
+    alt: "screenshot letteraid",
+    name: "Letteraid",
+    description: "Letteraid adds pronunciation marks to a page to help learners with reading and speaking English"
+  },
+  {
+    githubUrl: "https://github.com/rinse0ut/kitty",
+    demoUrl: "http://codehub.org.uk/topics/",
+    src: "/img/projects/meetup.jpg",
+    alt: "screenshot meetup topics",
+    name: "Codehub Popular Topics",
+    description: "Using the Meetup Api to find out about preferred programming languages and other interests"
+  }, 
+   {
+    githubUrl: "https://github.com/CodeHubOrg/meetup-data",
+    demoUrl: "https://rinse0ut.github.io/",
+    src: "/img/projects/kitty.jpg",
+    alt: "screenshot kitty",
+    name: "Kitty",
+    description: "Progressive web app for mobile, helping you to track your expenses"
+  }, 
+   {
+    githubUrl: "https://github.com/timhandy/pomodoro",
+    demoUrl: "https://codepen.io/timhandy/full/RGNEbv/",
+    src: "/img/projects/pomodoro.jpg",
+    alt: "screenshot pomodoro",
+    name: "Pomodoro Timer",
+    description: "Free Code Camp assignment using HTML, CSS, JS and jQuery"
+ }, 
 ];
 
 module.exports = projectList

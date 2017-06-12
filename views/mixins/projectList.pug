@@ -6,7 +6,8 @@ mixin project(project)
         if project.name
           h3 #{project.name}
         div #{project.description}
-
+        
+        if project.githubUrl
         a(href=project.githubUrl, rel="external") Github
 
 mixin projectList(projectList)

@@ -1,7 +1,6 @@
-# Roadmap(s)
-The JS101 group is just over 2 years old and has changed and evolved over that time. On this page, we share what we have learned about how to learn. It's not so much a strict roadmap, but rather advice on how to put together your own.
+<!-- The JS101 group is just over 2 years old and has changed and evolved over that time. On this page, we share what we have learned about how to learn. It's not so much a strict roadmap, but rather advice on how to put together your own.
 
-*Note: We don't teach JavaScript, this is not a linear course. You are responsible for your own learning, but we believe that reserving a time and place for it, and coding together with other developers, can enhance your learning a lot.*       
+*Note: We don't teach JavaScript, this is not a linear course. You are responsible for your own learning, but we believe that reserving a time and place for it, and coding together with other developers, can enhance your learning a lot.* -->      
 <br />                                            
 ## What and how do you want to learn?
 
@@ -54,6 +53,3 @@ Katrina Owen on [fluency versus proficiency](https://education.github.community/
 Two suggestions from David Moody who runs the hack night:               
 [Journey from Novice to Expert](https://media.pragprog.com/titles/ahptl/chap2.pdf)               
 [Apprenticeship Patterns - Guidance for the Aspiring Software Craftsman](http://www.simecr.it/new/wp-content/uploads/2014/04/Apprenticeship-Patterns-Guidance-for-the-Aspiring-Software-Craftsman.pdf)
-
-
-
