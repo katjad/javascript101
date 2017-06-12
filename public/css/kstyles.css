@@ -482,17 +482,28 @@ html {
   line-height: 1.25;
   
 }
+
+#jtk-flow {
+  display: none;
+}
+
+@media (min-width: 480px) {
+  #jtk-flow {
+    display: block;
+  }
+}
+
 /*.panel:hover {
   box-shadow: 0 0 5px 5px #dedede;
 }*/
-h2 {
+/*h2 {
   font-family: Georgia, serif;
   font-style: italic;
   font-size: 30px;
   color: #007BA7;
   margin: 0;
   padding: 10px 0 0 10px;
-}
+}*/
 h2.webdev{
   color: green;
 }
@@ -503,8 +514,8 @@ h2.webdev{
 
 .start{
   /*border: 3px solid rgba(64,187,231,0.4);*/
-  border: 5px solid #aaa;
-  border-radius: 5px;
+  /*border: 5px solid #aaa;
+  border-radius: 5px;*/
   height: 140px;
   width: 460px;
   position: absolute;

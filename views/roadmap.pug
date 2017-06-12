@@ -1,0 +1,17 @@
+extends doc.pug
+
+block head_added
+  include ../public/partials/head_roadmap.html
+
+block content
+  - var activelink = active.substr(1).replace('/',' ')
+  div(class="main "+activelink)    
+    .container
+      include ../public/partials/roadmap.html
+      div!= content
+  
+
+block footer_added
+  script(src="/vendor/jsPlumb/js/jsPlumb2.3.6.min.js")
+  script(src="/js/roadmap.js")
+

@@ -14,8 +14,13 @@ var render = function(filename, res, vars) {
     var pageContent = objAssign(
       contentsObj, vars
     )
+    if(filename == 'roadmap.md'){
+      err ? console.error :
+      res.render('roadmap', pageContent)
+    } else {
     err ? console.error :
     res.render('doc', pageContent)
+    }
   })
 }
 

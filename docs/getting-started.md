@@ -55,4 +55,4 @@ It's particularly important with JavaScript to make sure the resources you're us
 Find out about the best and most up to date resources on our [Resources page](/resources).
 
 ## Progressing
-Check out our [Visual Roadmap](/getting-started/roadmap-visual) page to see a suggestion of different programming activities for different levels of JavaScript. Or read about [integrating your goals with those of the group](/getting-started/roadmap).
+Check out our [Roadmaps](/getting-started/roadmap) page for some suggestions on what and how to learn, and integrate your goals with those of the group.

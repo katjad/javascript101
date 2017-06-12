@@ -1,0 +1,17 @@
+mixin project(project)
+    li(class="col-md-4 col-xs-6 block")
+      a(href=project.demoUrl, class="block")
+        img(src=project.src, alt=project.alt, class="img-responsive center-block")
+      p
+        if project.name
+          h3 #{project.name}
+        div #{project.description}
+        
+        if project.githubUrl
+        a(href=project.githubUrl, rel="external") Github
+
+mixin projectList(projectList)
+  div(class="member-projects")
+    ul(class="row auto-clear")
+      for project in projectList
+        +project(project)
