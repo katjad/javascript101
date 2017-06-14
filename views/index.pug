@@ -5,7 +5,6 @@ include mixins/randomQuote.pug
 
 block content
   .home
-
     .section.row
       .jumbotron
         h1= title
@@ -27,7 +26,10 @@ block content
         .col-lg-6
           h2 Next Meetup
           #meet-next
-            a(class='btn btn-primary' href='https://www.meetup.com/CodeHub-Bristol/') Sign Up
+            if (meetupDate) 
+              a(class='btn btn-primary' href='https://www.meetup.com/CodeHub-Bristol/') #{meetupDate}
+            else
+              a(class='btn btn-primary' href='https://www.meetup.com/CodeHub-Bristol/') Signup 
 
     .section.row
       .jumbotron
