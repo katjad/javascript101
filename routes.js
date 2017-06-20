@@ -10,8 +10,6 @@ var quotesInspiration = require('./model/quotesInspiration')
 var quotesCrockford = require('./model/quotesCrockford')
 var quotesJokes = require('./model/quotesJokes')
 
-console.log(meetupList, techList)
-
 router.get('/', function (req, res) {
   res.render('index', {
     title: 'Welcome to JavaScript 101',
@@ -19,7 +17,7 @@ router.get('/', function (req, res) {
     active: '/',
     techList: techList,
     meetupList: meetupList,
-    sponsorList: sponsorList,   
+    sponsorList: sponsorList,
     quotesInspiration: quotesInspiration,
     quotesCrockford: quotesCrockford,
     quotesJokes: quotesJokes
